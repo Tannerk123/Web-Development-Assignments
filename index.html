@@ -112,10 +112,9 @@
 
     <main>
       <article>
-        <video control width="400">
-          <source src="https://www.youtube.com/watch?v=ojcNcvb1olg">
-        </video>
-
+        <iframe src="https://www.youtube.com/watch?v=ojcNcvb1olg" width="400" height="315">
+        </iframe>
+          
         <h2>Rocking the free web</h2>
 
         <p>Mozilla are a global community of technologists, thinkers, and builders, working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
@@ -143,7 +142,10 @@
       </div>
 
       <div class="red-panda">
-        <!-- insert picture element -->
+        <picture>
+          <source srcset="red-panda600.jpg" media="(max-width:600px)">
+          <img src="red-panda1200.jpg" alt="Red Panda">
+        </picture>
       </div>
 
     </main>
