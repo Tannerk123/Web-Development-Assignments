@@ -51,5 +51,8 @@ body {
   }
 
   .feature {
-      width: 200px;
+    width: 200px;
+    float: left;
+    margin-bottom: auto;
+    margin-right: 1rem;
   }
